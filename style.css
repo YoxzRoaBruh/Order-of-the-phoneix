@@ -1166,10 +1166,3 @@ nav ul li a:hover {
     .hero-title { font-size: 2.2rem; }
     .section-title { font-size: 1.8rem; }
 }
-
-/* ========== PREFERS-REDUCED-MOTION (solo objetos decorativos) ========== */
-@media (prefers-reduced-motion: reduce) {
-    .spark, .smoke-particle, .intro-bg-particle, .loader-flames span {
-        display: none;
-    }
-}
